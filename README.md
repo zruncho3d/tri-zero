@@ -11,6 +11,9 @@ by Zruncho and DoomCube #tri-zero collaborators
 
 ![picture](Renders/iso.png)
 
+![picture](Renders/z.png)
+
+
 **The goal of the Tri-Zero project is to build a killer V0 with full auto-calibration.**
 
 Ideally, it would:
