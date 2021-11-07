@@ -48,7 +48,7 @@ The parts actually work to enable functional triple-bed-leveling, so you can bui
 
 To test the concept as quickly as possible, this release re-uses many parts from other sources, especially [F-Zero](https://github.com/zruncho3d/f-zero). But the 4x Z reduction really isn't needed for a bed that is 1/3 the weight of an F-Zero gantry.
 
-Think of it as a functioning work-in-progress in advance of a future V0 beta or actual release.  The tentative goal with the beta is to keep the concept, but remove the need for drive units that require shafts, bearings, and pulleys, and which prevent keeping the electronics in the space on the bottom.
+Think of it as a functioning work-in-progress in advance of a future T0 beta or actual release.  The tentative goal with the beta is to keep the concept, but remove the need for drive units that require shafts, bearings, and pulleys, and which prevent keeping the power supply inside the space below the bottom plate.
 
 ### What is missing in the Alpha Release?
 
