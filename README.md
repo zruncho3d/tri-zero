@@ -5,7 +5,7 @@ by Zruncho and DoomCube #tri-zero collaborators
 ### Upgrade your V0 or build a fresh T0.  
 ### Full auto-calibration.
 
-## Alpha Release 2021-11-07
+## Alpha-2 Release 2021-11-15
 
 ![picture](Renders/alpha-2/front.png)
 
@@ -33,9 +33,14 @@ Join us on the [DoomCube Discord](https://discord.gg/DASuYj9F) to help make this
 ### Status
 
 2021-11-15 Update:
-* T0-Alpha-2-Green can **reliably** and automatically level itself, using new flexure joints!  The flexure joints beat the KGLM03 joints in smoothness, as they converge *very* quicky when doing automatic leveling.  
-* CAD and STLs for alpha-2 are now available.  Nearly all main Z motion parts have changed.  Lessons from alpha-2 will lead to a much simpler alpha-3, likely with even taller Z (beyond 120mm).
-* Different detachable probe options are under testing, including SideSwipe and a stretched Klicky-style probe.
+* T0-Alpha-2-Green can **reliably** and automatically level itself.  Config coming soon.
+* The new flexure joints beat the KGLM03 joints in smoothness, as they converge *very* quicky when doing automatic leveling, plus drop a few bucks from the cost total.
+* Z has been increased to right about 120mm, and nearly all main Z motion parts had to change to enable this.
+* Front idlers were narrowed a bit to avoid a tiny bit of interference in the very front of the printer.  
+* CAD and STLs for alpha-2 are now available.   
+* What's coming next?
+  * Lessons from alpha-2 will lead to a much simpler alpha-3, likely with even taller Z (beyond 120mm).
+  * Different detachable probe options are under testing, including SideSwipe and a stretched Klicky-style probe.
 
 2021-11-07 Update:
 * T0-Alpha-1-Green can automatically level itself, as of today!  Images and video proof are availabe on Discord.  Real life nearly matches the CAD.
