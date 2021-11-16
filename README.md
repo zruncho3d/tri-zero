@@ -7,11 +7,13 @@ by Zruncho and DoomCube #tri-zero collaborators
 
 ## Alpha Release 2021-11-07
 
-![picture](Renders/front.png)
+![picture](Renders/alpha-2/front.png)
 
-![picture](Renders/iso.png)
+![picture](Renders/alpha-2/iso.png)
 
-![picture](Renders/z.png)
+![picture](Renders/alpha-2/z.png)
+
+![picture](Renders/alpha-2/bed_asm_no_bed.png)
 
 
 **The goal of the Tri-Zero project is to build a killer V0 with full auto-calibration.**
@@ -30,9 +32,14 @@ Join us on the [DoomCube Discord](https://discord.gg/DASuYj9F) to help make this
 
 ### Status
 
-2021-11-07 Status:
-* T0-Alpha-Green can automatically level itself, as of today!  Images and video proof are coming soon.  Real life nearly matches the CAD.
-* CAD and STLs now available.
+2021-11-15 Update:
+* T0-Alpha-2-Green can **reliably** and automatically level itself, using new flexure joints!  The flexure joints beat the KGLM03 joints in smoothness, as they converge *very* quicky when doing automatic leveling.  
+* CAD and STLs for alpha-2 are now available.  Nearly all main Z motion parts have changed.  Lessons from alpha-2 will lead to a much simpler alpha-3, likely with even taller Z (beyond 120mm).
+* Different detachable probe options are under testing, including SideSwipe and a stretched Klicky-style probe.
+
+2021-11-07 Update:
+* T0-Alpha-1-Green can automatically level itself, as of today!  Images and video proof are availabe on Discord.  Real life nearly matches the CAD.
+* CAD and STLs for alpha-1 now available.
 
 ### Buildlog and Design Doc
 
@@ -70,8 +77,7 @@ Standard Voron settings, or lowered infill and fewer perims, should work fine fo
 ### What do I need to build a Tri-Zero Alpha?
 
 For printed parts, you need the STLs in the quantites noted from this repo, along with STLs from a bunch of places:
-- [F-Zero](https://github.com/zruncho3d/f-zero): Z drive units (drive outer, drive inner, motor mounts), no-drop nuts, KGLM-03 joint parts
-- [Tensioner from MCMBen's Block-and-Tackle Z for V0](https://github.com/Fleafa/VoronUsers/blob/master/printer_mods/MCMBen/Voron0_Block_and_Tackle_Z_Belt/STLs/%5Ba%5D_tensioner_v1.stl) - Zruncho printed this vertically for clean surfaces, but make sure you have good layer adhesion.
+- [F-Zero](https://github.com/zruncho3d/f-zero): Z drive units (drive outer, drive inner, motor mounts), no-drop nuts
 - L.e.o.p.a.rd's endstop assembly - see [F-Zero gdoc for instructions](https://docs.google.com/document/d/1dm8itefYrLIsCcOQht9sdMzrXE8Jk30s56c9IwtRCkM/edit)
 - More M2 nutbars from V0
 
@@ -84,3 +90,7 @@ In addition, an MGN9 or dual-MGN7 X gantry is highly recommended!  You don't wan
 Look at the render and CAD first.
 
 Then, go the DoomCube Discord and ask on the #tri-zero channel, because the render and CAD are early and incomplete :-)
+
+### Additional Credits
+
+The tensioner part derives from [MCMBen's Block-and-Tackle Z for V0](https://github.com/Fleafa/VoronUsers/blob/master/printer_mods/MCMBen/Voron0_Block_and_Tackle_Z_Belt/STLs/%5Ba%5D_tensioner_v1.stl) - Zruncho prints this vertically for clean surfaces, but make sure you have good layer adhesion.
