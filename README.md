@@ -28,7 +28,7 @@ Ideally, it would:
 
 That's a tall order, and we're not there yet.
 
-Join us on the [DoomCube Discord](https://discord.gg/DASuYj9F) to help make this a reality.
+Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this a reality.
 
 ### Status
 
