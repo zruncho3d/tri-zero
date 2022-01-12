@@ -3,18 +3,17 @@ by Zruncho and DoomCube #tri-zero collaborators
 
 ### Make every first layer perfect!
 ### Upgrade your V0 or build a fresh T0.  
-### Full auto-calibration.
 
-## Alpha-2 Release 2021-11-15
 
-![picture](Renders/alpha-2/front.png)
+## Alpha-3 Release 2022-01-11
 
-![picture](Renders/alpha-2/iso.png)
+![Front](Renders/alpha-3/front.png)
 
-![picture](Renders/alpha-2/z.png)
+![Iso](Renders/alpha-3/iso.png)
+
+![Z Drives](Renders/alpha-3/z_drives_front.png)
 
 ![picture](Renders/alpha-2/bed_asm_no_bed.png)
-
 
 **The goal of the Tri-Zero project is to build a killer V0 with full auto-calibration.**
 
@@ -26,11 +25,28 @@ Ideally, it would:
 - be complete-able in one or two "Nero stream units" of a few hours
 - be sourced with widely available components
 
-That's a tall order, and we're not there yet.
+That's a tall order, but with the shift to direct drive with alpha-3, we're basically there.
 
 Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this a reality.
 
 ### Status
+
+2022-01-11 Update:
+* T0-Alpha-3: now with less!
+* **Now Direct-Drive** - yes, this is a huge change.  Frees up space, lower costs, and speeds up the conversion time.  And yes, regular NEMA14 motors seem to have just enough unpowered hold and enough resolution to make this work in practice.  Long (V0.1-spec) NEMA14s should be overqualified to hold the bed when the power cuts out.
+* **Now using MCMBen Trident-style skirts** - these look great and enable integrated side skirts with motor mounts.  Only needs one part and its mirror to change, the front corners, to add clearance for the front belt pulleys.  See the repo for these.
+* Simplified Z attachments: easier and faster to print, increases Z travel (122mm out of the box), and also removes 6 M2 screws.
+* New rear motor attachment piece.  It's basically a block.
+* Updated front idlers: reduces the material needed and slightly increases clearance for another mm of X travel.
+* CAD and STLs for alpha-3 are now available.  GitHub limits files to 100 MB and the Fusion export is just a bit too large.  [Go here for the Fusion export](https://drive.google.com/file/d/1fiEJLRE4qYLFB2CRu8r5_06jv_Fr14W6/view?usp=sharing).
+* What's coming next?
+   * Redone integrated skirts.  The motors are too far inboard now, which wastes space and loads the motor bearings unnecessarily.  This was intentional, to minimize skirt changes, but if we go full-custom with the skirts, they can be more optimized for Tri-Zero.  For example, by extending beyond the frame boundary - to the enclosure boundary - it should be easier to enable NEMA17 motors.
+   * A probing solution is coming, called ZeroClick, but it needs a corresponding dock created before release.
+   * A rear Z motor mount that doesn't change the nut locations relative to V0.1 would be nice!
+   * Lessons from Double Dragon point the way to probably 130mm Z (!) using the same rails.
+   * ZeroPanels are coming soon: screwless, nutless, magnetless, toolless enclosure panels that attach and remove in seconds.
+   * Maybe... just maybe... a block-and-tackle Z for 2x resolution and torque.
+   * Some built-in solution for mounting Wagos under the bed.
 
 2021-11-15 Update:
 * T0-Alpha-2-Green can **reliably** and automatically level itself.  Config coming soon.
@@ -60,7 +76,7 @@ The parts actually work to enable functional triple-bed-leveling, so you can bui
 
 To test the concept as quickly as possible, this release re-uses many parts from other sources, especially [F-Zero](https://github.com/zruncho3d/f-zero). But the 4x Z reduction really isn't needed for a bed that is 1/3 the weight of an F-Zero gantry.
 
-Think of it as a functioning work-in-progress in advance of a future T0 beta or actual release.  The tentative goal with the beta is to keep the concept, but remove the need for drive units that require shafts, bearings, and pulleys, and which prevent keeping the power supply inside the space below the bottom plate.
+Think of it as a functioning work-in-progress in advance of a future T0 beta or actual release.
 
 ### What is missing in the Alpha Release?
 
@@ -82,11 +98,12 @@ Standard Voron settings, or lowered infill and fewer perims, should work fine fo
 ### What do I need to build a Tri-Zero Alpha?
 
 For printed parts, you need the STLs in the quantites noted from this repo, along with STLs from a bunch of places:
-- [F-Zero](https://github.com/zruncho3d/f-zero): Z drive units (drive outer, drive inner, motor mounts), no-drop nuts
+- [F-Zero](https://github.com/zruncho3d/f-zero): no-drop nuts
 - L.e.o.p.a.rd's endstop assembly - see [F-Zero gdoc for instructions](https://docs.google.com/document/d/1dm8itefYrLIsCcOQht9sdMzrXE8Jk30s56c9IwtRCkM/edit)
+- [MCMBen Trident-style V0 skirts](https://github.com/Fleafa/VoronUsers/tree/V0.1-Trident-skirt/printer_mods/MCMBen/Voron0_Trident_Skirt/STLs)
 - More M2 nutbars from V0
 
-For non-printed parts, look in the [F-Zero](https://github.com/zruncho3d/f-zero) repo's BOM.  The non-printed stuff is currently a strict subset of F-Zero parts.
+For non-printed parts, it's mostly just some extra belt and some extra F623 pulleys.
 
 In addition, an MGN9 or dual-MGN7 X gantry is highly recommended!  You don't want toolhead flop to affect bed-probe results or print quality.  Hartk1213 has an [MGN9 mod for V0](https://github.com/Fleafa/VoronUsers/tree/master/printer_mods/hartk1213/Voron0_MGN9C_X_Axis) which is in use in the first prototype.
 
