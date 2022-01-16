@@ -29,10 +29,12 @@ That's a tall order, but with the shift to direct drive with alpha-3, we're basi
 
 Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this a reality.
 
-### Status
+### Updates
+
+2022-01-16 Initial BOM posted below.  No large changes are expected, but no promises are made w/an alpha!
 
 2022-01-11 Update:
-* T0-Alpha-3: now with less!
+* T0-Alpha-3 released: **now with less!**
 * **Now Direct-Drive** - yes, this is a huge change.  Frees up space, lower costs, and speeds up the conversion time.  And yes, regular NEMA14 motors seem to have just enough unpowered hold and enough resolution to make this work in practice.  Long (V0.1-spec) NEMA14s should be overqualified to hold the bed when the power cuts out.
 * **Now using MCMBen Trident-style skirts** - these look great and enable integrated side skirts with motor mounts.  Only needs one part and its mirror to change, the front corners, to add clearance for the front belt pulleys.  See the repo for these.
 * Simplified Z attachments: easier and faster to print, increases Z travel (122mm out of the box), and also removes 6 M2 screws.
@@ -61,6 +63,27 @@ Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this
 2021-11-07 Update:
 * T0-Alpha-1-Green can automatically level itself, as of today!  Images and video proof are availabe on Discord.  Real life nearly matches the CAD.
 * CAD and STLs for alpha-1 now available.
+
+### BOM preview
+
+This BOM preview is for Alpha-3, though there's no expectation that these parts will change.  The BOM will become more specific over time, as more of the design gets tested and finalized.
+
+| Category | Part | Qty | Notes |
+| - | - | - | - |
+| Fasteners | M2x6 BHCS or SHCS | 10+ | For retaining the Z attachments in rear (2), 6-8 for the rear Z bar, plus one per front idler (2) |
+| Fasteners | M2x8 BHCS or SHCS | 4+ | For retaining the Z belt attachments in front |
+| Fasteners | M2 nuts | 12 | For M2 nutbars
+| Fasteners | M3 BHCS (various) | Yes | For Z idlers (vertical), Z bearing holder (horizontal), + lots more
+| Fasteners | M3 nuts | Yes |
+| Fasteners | M3 heatset inserts | Yes | For motors, bed mounts, frame corners and more
+| Z Drives | GT2 belt | 3x~450mm |
+| Z Drives | GT2 16t pulleys | 3 |
+| Z Drives | MGN7H 150mm | 2 | Ideally upgrade to MGN9C on the X carriage and then get only one of these.
+| Z Drives | NEMA14 (for alpha3 or alpha4) or NEMA17 motors (for alpha4, when released) | 3 | Needs to have enough hold torque.  Mid-size (33mm body length) NEMA14 are marginal, while long (48mm body length) NEMA14 or most mid-to-large NEMA17 will provide enough unpowered hold torque to keep the bed from dropping.  Ideally 0.9mm for extra resolution.  Mix and match should be fine.  Use what you've got.  The Z drive motors barely matter.
+| Z Drives | F623 bearings | 6 | Idlers |
+| Bed | Sexbolt endstop kit | 1 + 1 | Needed for Auto-Z, though technically optional, if you use a virtual endstop in Klipper |
+
+In addition, you'll need parts for a bed probing solution, plus some way to get extra drivers.
 
 ### Buildlog and Design Doc
 
@@ -95,15 +118,13 @@ Standard Voron settings, or lowered infill and fewer perims, should work fine fo
 - 40% infill, depending on the part
 - 0.2mm layer height
 
-### What do I need to build a Tri-Zero Alpha?
+### Printed Parts
 
 For printed parts, you need the STLs in the quantites noted from this repo, along with STLs from a bunch of places:
 - [F-Zero](https://github.com/zruncho3d/f-zero): no-drop nuts
 - L.e.o.p.a.rd's endstop assembly - see [F-Zero gdoc for instructions](https://docs.google.com/document/d/1dm8itefYrLIsCcOQht9sdMzrXE8Jk30s56c9IwtRCkM/edit)
 - [MCMBen Trident-style V0 skirts](https://github.com/Fleafa/VoronUsers/tree/V0.1-Trident-skirt/printer_mods/MCMBen/Voron0_Trident_Skirt/STLs)
 - More M2 nutbars from V0
-
-For non-printed parts, it's mostly just some extra belt and some extra F623 pulleys.
 
 In addition, an MGN9 or dual-MGN7 X gantry is highly recommended!  You don't want toolhead flop to affect bed-probe results or print quality.  Hartk1213 has an [MGN9 mod for V0](https://github.com/Fleafa/VoronUsers/tree/master/printer_mods/hartk1213/Voron0_MGN9C_X_Axis) which is in use in the first prototype.
 
