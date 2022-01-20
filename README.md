@@ -41,7 +41,7 @@ Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this
   * The new MotorSkirts push the motors as far out as possible, freeing up enough space to fit larger power supplies  more easily (between motors or against the motor rear plates).  
   * The front skirt can be swapped for a [4" touchscreen mod](https://github.com/Fleafa/VoronUsers/tree/V0.1-Trident-skirt/printer_mods/roboticator24/4inch_touchscreen_mount_for_v2.4) for [KlipperScreen](https://github.com/jordanruthe/KlipperScreen).  
   * Guitar Feet (4x) can be added to give a nice handle with the skirts... or, retain the original V0 bumpers.
-* New rear motor mount: now, mounts to the nuts you'd already have on a V0 if doing a conversion.  This is huge deal!  To convert a V0, you no longer need to dissassemble the rear frame.
+* New rear motor mount: now, mounts to the nuts you'd already have on a V0 if doing a conversion.  This is a huge deal!  To convert a V0, you no longer need to dissassemble the rear frame.
 * New clip-in 30mm fan mounts on the sides for side-to-side airflow.
 * New clip-in front motor pulley covers.  Leave them out if you want to see Z motion or put some spinners on.
 * Slightly thinner rear Z idlers: now they fit within the extrusion thickness of 15mm.  Two benefits: more space for a probe back there (hint, hint) and now the center tensioner fits a regular 12mm BHCS, so no cut screw or washers are needed anymore.
@@ -49,7 +49,7 @@ Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this
 * Want to contribute?  PRs would be welcome for these improvements:
   * Integrated probing solution
   * Rear side skirts with less material.  Duplicating the front skirts adds unnecesary material and gets in the way of a rear outlet.  I got tired and chose to release this instead of modding the skirt.  Other improvements matter more.
-  * Integated bed Wago mount (5x2)
+  * Integrated bed Wago mount (5x2)
 
 2022-01-16 Initial BOM posted below.  No large changes are expected, but no promises are made w/an alpha!
 
