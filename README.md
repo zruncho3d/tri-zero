@@ -45,7 +45,7 @@ Join us on the [DoomCube Discord](https://discord.gg/doomcube) to help make this
 * New clip-in 30mm fan mounts on the sides for side-to-side airflow.
 * New clip-in front motor pulley covers.  Leave them out if you want to see Z motion or put some spinners on.
 * Slightly thinner rear Z idlers: now they fit within the extrusion thickness of 15mm.  Two benefits: more space for a probe back there (hint, hint) and now the center tensioner fits a regular 12mm BHCS, so no cut screw or washers are needed anymore.
-* CAD and STLs for alpha-3 are now available.  The original V0.1 bed assembly is gone, for a smaller file size, but Fusion is failing to export, so .step only for this one.
+* CAD and STLs for alpha-4 are now available.  The original V0.1 bed assembly is gone, for a smaller file size, but Fusion is failing to export, so .step only for this one.
 * Want to contribute?  PRs would be welcome for these improvements:
   * Integrated probing solution
   * Rear side skirts with less material.  Duplicating the front skirts adds unnecesary material and gets in the way of a rear outlet.  I got tired and chose to release this instead of modding the skirt.  Other improvements matter more.
@@ -98,7 +98,7 @@ This BOM preview is for Alpha-4, though there's no expectation that these parts 
 | Fasteners | M3 heatset inserts | Yes | For motors, bed mounts (2 + 3), motor skirts (4x3), z belt attachment (4) and more
 | Z Drives | GT2 belt | 3x~450mm |
 | Z Drives | GT2 16t pulleys | 3 |
-| Z Drives | MGN7H 150mm | 2 | Ideally upgrade to MGN9C on the X carriage and then get only one of these.
+| Z Drives | MGN7H 150mm | 2 | Ideally upgrade to MGN9C on the X carriage and then get only one of these to repurpose for a front Z drive.
 | Z Drives | NEMA14 (for alpha3 or alpha4) or NEMA17 motors (for alpha4, when released) | 3 | Needs to have enough hold torque.  Mid-size (33mm body length) NEMA14 are marginal, while long (48mm body length) NEMA14 or most mid-to-large NEMA17 will provide enough unpowered hold torque to keep the bed from dropping.  Ideally 0.9mm for extra resolution.  Mix and match should be fine.  Use what you've got.  The Z drive motors barely matter.
 | Z Drives | F623 bearings | 6 | Idlers |
 | Bed | Sexbolt endstop kit | 1 + 1 | Needed for Auto-Z, though technically optional, if you use a virtual endstop in Klipper |
