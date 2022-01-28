@@ -144,7 +144,9 @@ The MotorSkirts are happy with 20% infill, for a bit of print speedup.
 ### Printed Parts
 
 For printed parts, you need the STLs in the quantites noted from this repo, along with STLs from a bunch of places:
-- [F-Zero](https://github.com/zruncho3d/f-zero): no-drop nuts
+- From [F-Zero](https://github.com/zruncho3d/f-zero):
+  - [No-drop nuts](https://github.com/zruncho3d/f-zero/tree/main/STLs/NoDropNuts)
+  - [12mm Bed Spacers](https://github.com/zruncho3d/f-zero/blob/main/STLs/Bed/bed_spacer_12mm_x3.stl)
 - L.e.o.p.a.rd's endstop assembly - see [F-Zero gdoc for instructions](https://docs.google.com/document/d/1dm8itefYrLIsCcOQht9sdMzrXE8Jk30s56c9IwtRCkM/edit)
 - More M2 nutbars from V0
 
