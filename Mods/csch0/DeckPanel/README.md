@@ -1,0 +1,1 @@
+Base panel with cutouts.
