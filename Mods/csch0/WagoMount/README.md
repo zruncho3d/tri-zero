@@ -11,6 +11,6 @@ Idea taken from this mod for the v0: https://github.com/VoronDesign/VoronUsers/t
 * 4x M3 Heat inserts (from the V0 BOM)
 * 6x Wago 221-412
 
-![image1](IMGs/image1.jpg)
-![image2](IMGs/image2.jpg)
-![image3](IMGs/image3.jpg)
+![image1](Images/image1.jpg)
+![image2](Images/image2.jpg)
+![image3](Images/image3.jpg)
