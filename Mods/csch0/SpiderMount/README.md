@@ -9,8 +9,8 @@ Mount for the spider mainboard, supports the [Wire Fingers](https://github.com/z
 * 6x [Wire Fingers](https://github.com/zruncho3d/double-dragon/blob/main/STLs/Optional/Wire_Fingers_x6.stl)
 
 
-![render](IMGs/render.png)
+![render](Images/render.png)
 
 Installed it looks like this on my tri-zero.
 
-![installed](IMGs/installed.jpg)
+![installed](Images/installed.jpg)
