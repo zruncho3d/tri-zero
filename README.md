@@ -169,7 +169,7 @@ This BOM preview is for Alpha-4, though there's no expectation that these parts 
 | Z Drives | MGN7H 150mm | 2 | Ideally upgrade to MGN9C on the X carriage and then get only one of these to repurpose for a front Z drive.  See the nte below.
 | Z Drives | NEMA14 or NEMA17 motors | 3 | Needs to have enough hold torque.  Mid-size (33mm body length) NEMA14 are marginal, while long (48mm body length) NEMA14 or most mid-to-large NEMA17 will provide enough unpowered hold torque to keep the bed from dropping.  Ideally 0.9mm for extra resolution.  Mix and match should be fine.  Use what you've got.  The Z drive motors barely matter.
 | Z Drives | F623 bearings | 6 | Idlers |
-| Bed | Sexbolt endstop kit | 1 | Adding a sexbolt endstop kit enables Auto-Z and is highlight recommended; optionally, repurpose the original Z endstop and use the ZeroClick probe as a virtual endstop in Klipper to remove this added requirement. |
+| Bed | Sexbolt endstop kit | 1 | Adding a sexbolt endstop kit enables Auto-Z and is highlight recommended; optionally, repurpose the original Z endstop and use the ZeroClick probe as a virtual endstop in Klipper to remove this added requirement. Yes, the microswitch will need to flipped to the other side if your hartk endstop board comes pre-soldered, so ideally ask for a not-yet-soldered one. |
 | Frame | Guitar Feet | 4 | Optional; same as used with Voron Trident.  Can use original V0.1 rubber feet instead.
 
 In addition, you'll need parts for ZeroClick, plus some way to get extra drivers.
