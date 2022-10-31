@@ -4,9 +4,9 @@ In a nutshell: **it's not that hard**.
 
 Even as a first-time, scratch build, it's reasonable to do the mechanical side in only a few hours.
 
-Even if you're also doing BoxZero at the same time, the gantry can stay in place, with changes around the gantry.
+Even if you're also doing BoxZero at the same time, the gantry can stay in place, as you work around it.
 
-The build order isn't as prescribed as a V0, because the bedrame can be easily added and removed, and because the motors can go in before or after the MotorCorners... this is an under-appreciated benefit of T0.
+The build order isn't as prescribed as a V0, because the bedframe can be easily added and removed, and because the motors can go in before or after the MotorCorners... this is an under-appreciated benefit of T0.
 
 **You can do it!**  Lots of people have, without even these instructions.
 
@@ -15,9 +15,9 @@ When in doubt, consult the CAD, but realize that not all screws and nuts are pre
 And yes, the steps are a little bit high level in a few places; we'll improve these over time, with more pictures, especially.
 
 ## Prep
-* **Skim the list of PRs on the GitHub** - is there anything new and useful for you?
+* **Skim the [list of PRs](https://github.com/zruncho3d/tri-zero/pulls) on the GitHub** - is there anything new and useful for you?
 * Print parts per [parts guide](PARTS.md)
-* Print NDNs - more than you think you'll need.
+* Print [NDNs](https://github.com/zruncho3d/f-zero/tree/main/STLs/NoDropNuts) matched to your extrusions - more than you think you'll need.
 
 ## Pre-build
 * Add heatsets where needed
@@ -31,7 +31,7 @@ And yes, the steps are a little bit high level in a few places; we'll improve th
 For conversions, of course!
 * Remove the V0 Z assembly
   * .. but leave the rear verticals in place
-  * Remove bedframe (possibly by removing the rail m2s... that's one way)
+  * Remove bedframe (possibly by removing the rail M2 screws... that's one way)
   * Take it all off.  You'll need the extrusions.
   * Remove Z railstops
   * Remove rear Z motor/stepper unit
@@ -69,6 +69,9 @@ For conversions, of course!
   * Add a screw for locking in place and ensuring it can slide up and down; you tighten this one (against an extrusion) when the tension is set.
   * Add a screw for adjusting the tension
 * Add front belts.  Attach with minimal extra belt on top first.  Then snake the belt around, past the pulley, up and to the attachment.  Leave a bit of extra to grab in the future (say, 15 teeth to start; can always trim later, and only when both sides are tensioned fully.)
+* Ensure alignment for the front pulleys and lock them down.
+* Tension the tensioner and ensure smooth travel across the full range of motion.
+* If using printed sliders, lubricate the bearing and slide it up and down until it coats the full full extrusion travel used.
 
 #### Assemble rear Z
 ![](Renders/alpha-6/rear_z.png)
@@ -84,9 +87,13 @@ For conversions, of course!
 * Attach tensioner screw and add the tensioner unit (the one with a belt already, right?).  Screw the tensioner in a turn or two - the minimum amount to keep it on.
 * Route belt around lower pulley and add the rear belt attachment, with some tension applied; it'll float in place.
   * Make sure the rear belt attachment has all 4 holes aligned with the rear slider.
-* Slide the belt block down, into the rear Z slider unit.  It should click satisfyingly and hold in place even without screws!  
+* Slide the belt block down, into the rear Z slider unit.  It should click satisfyingly and hold in place even without screws!
 * Add screws to lock the carriage slider bar against the belt block.
-* Note: after a few times, this all becomes a ~2 min procedure.  You can do all this with the rear panel in place, because the rear wide carriage mount and the belt block can be at different heights.
+* Ensure alignment for the rear pulley and lock it in place.
+* Tension the rear Z belt and ensure that the motion is smooth and low-friction over the full travel.
+* If using printed sliders, lubricate the bearing and slide it up and down until it coats the full full extrusion travel used.
+
+Note: after a few times, attaching the rear Z belt becomes a ~2 min procedure.  You can do all this with the rear panel in place, because the rear wide carriage mount and the belt block can be at different heights.
 
 #### Assemble bedframe unit
 ![](Renders/alpha-6/bedframe.png)
@@ -95,7 +102,7 @@ For conversions, of course!
 * Add nozzle endstop, if present
 * Add bedframe end parts (3) with screws; leave ends someone loose, as you'll align the bedframe in place later.
 * Add bed spacers, bed, and bed screws.  Add loosely, align, then tighten.
-* Add wires to Wagos.  Put high-power and low-power on separate sides.
+* Attach bed power and thermistor wires to the Wagos.  Put high-power and low-power connections on separate sides.
 * Add motor cover bumps + screws (4)
 * Then add either the small bumpers or large Guitar Feet.  Guitar feet need long M3 screws into the heatsets, with a fender washer or printed spacer for each.
 * Adjust all Z drives to equal, high tension.  The higher the tension, the better the printer will hold in place without power.
@@ -132,7 +139,9 @@ For conversions, of course!
 * Do dry-run print to confirm presence of probe macro
 * Enjoy never having to level the bed again!!!
   * You're now able to build pretty much any printer, too, if you were able to build, wire, config, and debug this one.  Congrats!
-* Post your baby's first steps to ``#tri-zero` on DoomCube.  Zruncho wants to see your build!  They're all unique.  Really!
+* Post your baby's first steps to `#tri-zero` on DoomCube.   `#build-showcase` and `r/VoronDesign` are great places too.
+
+Zruncho wants to see your build, as do others!!  They're all unique.  Really!
 
 # Helpful Tips
 
