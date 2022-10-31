@@ -65,7 +65,7 @@ The list below almost certainly over-estimates, because it doesn't factor in scr
 
 ## Build Guide
 
-In this repo are all of the STLs needed to build a Tri-Zero Alpha which are not in the V0.1 repo.
+In this repo are all of the STLs needed to build a Tri-Zero Alpha which are not in another repo (primary V0.1).
 
 All parts should be already be in print-ready orientation, with seam in the +Y dir, and no supports are needed.  Standard Voron settings, or lowered infill and fewer perims, should work fine for most parts:
 - 4 perimeters
@@ -74,8 +74,17 @@ All parts should be already be in print-ready orientation, with seam in the +Y d
 
 The MotorSkirts and Rear Corners are happy with 20% infill, for a bit of print speedup.
 
-Note that you will need all the STLs in this repo in the quantities listed, along with STLs from a few external repos:
+Note that you will need all the STLs in the top-level STLs folder in the quantities listed at the end of each part name, with a few exceptions:
+* Between NEMA14 and NEMA17, you'll need to pick one for each motor.  You can actually mix and match them, though.
+  * `Rear_Motor_Mount`
+  * `Motor_Corner_Screw_In`
+* For the front bed mount, pick between the main and extended one.
+  * `Front_Bed_Mount` for usual V0 beds
+  * `Front_Bed_Mount_Extended` for MRW-style beds which stick out by 5mm, which means they need to be shifted forwards by 5mm to expose the nozzle endstop to the nozzle.
+* Front corner bumps are technically optional, but they're there by default.  You can skip them and directly add a bumper to the farthest-out screw holes with an M3 screw and nut if you'd like.  Don't worry, you won't be judged for it.
+
+Plus, you'll want to consider these optional STLs from a few external repos:
 - [No-drop nuts](https://github.com/zruncho3d/f-zero/tree/main/STLs/NoDropNuts)
 - [More M2 nutbars from V0](https://github.com/VoronDesign/Voron-0/blob/Voron0.1/STLs/M2_Nut_Adapter_Rotated_x5.stl)
-- Optional: [ZeroPanels](https://github.com/zruncho3d/ZeroPanels), especially Tecnologic-style ones
-- Optional: [BoxZero](https://github.com/zruncho3d/BoxZero)
+- [ZeroPanels](https://github.com/zruncho3d/ZeroPanels), especially Tecnologic-style ones
+- [BoxZero](https://github.com/zruncho3d/BoxZero)
