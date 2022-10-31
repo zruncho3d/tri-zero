@@ -77,13 +77,13 @@ Or, just straight to detailed docs:
 
 The community is growing.  20+ builds completed.  
 
-With alpha-6, the docs are vastly expanded and improved, and you expect more good stuff to come, to make it easier and faster to build.
+With Alpha-6, the docs are vastly expanded and improved.  You can expect more good stuff to come, to make this mod  easier and faster to build.
 
 **New in this release:**
 
 | ![Iso](Renders/alpha-6/iso-both.png) | ![Iso with skirt](Renders/alpha-6/center_brace_with_wagos.png) | ![Front](Renders/alpha-6/mgn7h_slider_top_iso_perspective.png) | ![Iso with skirt](Renders/alpha-6/low_side_x_carriage_iso_ortho.png) | ![Iso with skirt](Renders/alpha-6/motorskirts_side.png)  |
 | - | - | - | - | - |
-| Plus50 Size | Rail-less Z Option | Integrated-Wago Bedframe | No-flush-cut carriages | 40mm Side Fans |
+| Plus50 Size | Integrated-Wago Bedframe | Rail-less Z Option | No-flush-cut carriages | 40mm Side Fans |
 
 * **Plus50**, or **T0+** for short, is a new, larger, supported build size.  120x120 is good, but 170x170 is more usable, for little extra money.  T0+ can even be a cost-effective conversion for a V0, using 50mm extrusion chunks.  Shop the new [Plus Size](PLUS50.md) section for this year's newest model.
 
