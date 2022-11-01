@@ -32,9 +32,9 @@ For conversions, of course!
 * Remove the V0 Z assembly
   * .. but leave the rear verticals in place
   * Remove bedframe (possibly by removing the rail M2 screws... that's one way)
-  * Take it all off.  You'll need the extrusions.
+  * Take apart the bedframe, as you'll need the 100mm extrusions later
   * Remove Z railstops
-  * Remove rear Z motor/stepper unit
+  * Remove rear Z motor/stepper unit and printed mount
 * Remove baseplate
   * Loosen screws on front horizontal extrusion and/or front verticals.
   * Cut 20mm-wide, 15mm-deep notches on each side of the original baseplate, matching the CAD and the DXF.  Use flush cutters with ABS or a dremel or band saw with ACM.
