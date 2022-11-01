@@ -36,7 +36,8 @@ For conversions, of course!
   * Remove Z railstops
   * Remove rear Z motor/stepper unit and printed mount
 * Remove baseplate
-  * Loosen screws on front horizontal extrusion and/or front verticals.
+  * Loosen screws on front horizontal extrusion
+  * Loosen all screws on front verticals so that the baseplate can come out; you may need to loosen these screws enough to get the front verticals out.
   * Cut 20mm-wide, 15mm-deep notches on each side of the original baseplate, matching the CAD and the DXF.  Use flush cutters with ABS or a dremel or band saw with ACM.
 * Remove toolhead for ZeroClick attachment
   * Frees up space to get to work, but optional.
