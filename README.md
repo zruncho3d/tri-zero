@@ -1,225 +1,153 @@
 # Tri-Zero - a triple-belted-Z V0 mod
+
 a Voron Zero mod to add Automatic Bed Leveling - under $100, in only a few hours.
 
-**T0** provides the quality-of-life benefits of flying-gantry mods like [F-Zero](https://github.com/zruncho3d/f-zero), but in a fraction of the build time, at much lower cost.
+**Make every first layer perfect** and never adjust a bed screw again!  :tada:   
+
+Upgrade your V0, or build a T0 from scratch with an augmented V0 kit.  
+
+#### **Now with a Plus50 size, which adds 50mm X and Y travel, to 170mmx170mm:**
+
+| ![Iso with skirt](Renders/alpha-6/iso-red.png) |
+| - |
+| T0 Plus50 with optional [BoxZero](https://github.com/zruncho3d/BoxZero) mod, Tecnologic-style [ZeroPanels](https://github.com/zruncho3d/BoxZero), and Mini 12864 display. |
+
+| ![Iso](Renders/alpha-4/iso.png) | ![Iso with skirt](Renders/alpha-6/iso_green_t0_brighter.png)
+| - | - |
+| T0 applied to V0 | T0 + [BoxZero](https://github.com/zruncho3d/BoxZero), [ZeroPanels](https://github.com/zruncho3d/BoxZero), & display.
+
+### Why T0, vs other [Printers for Ants](https://3dprintersforants.com)?
+* Less $, fewer failure points, and less potential for ringing than flying-gantry printers
+* Faster Z motion compared to lead-screw printers, with no possibility of Z-banding
+* Retains full space for electronics on the back
+* Uses spare steppers you probably already have
 
 *You don't even need to take the frame apart to do a V0 conversion.*
 
-Main features:
-* Perfect Z layers, quiet motion, and great bed stability from a triple belted Z axes
-* Integrated Klicky-style bed probing with [ZeroClick](https://github.com/zruncho3d/ZeroClick)
-* Rear endstop enables [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) and more
-* Snap-in, quick-print side panels with [ZeroPanels](https://github.com/zruncho3d/ZeroPanels)
-* Easy bed attachment and removal: 3 screws each
-* Easy belt attachment and removal: fully tool-less
-* Easy single-screw tensioning on all axes
-* Easy to assemble: no hard-to-access screws or assembly-order requirements
-* Your choice of display: 4.3" Touchscreen, 12864, V0 Mini Display, or blank panel.  
-* Supports NEMA14 and NEMA17 Z motors: use whatever you've got lying around!
+T0 is actively developed and community-supported, with over 20 builds completed, or in progress, as of October 2022.  Here are a few sample builds:
 
-*This repo includes everything you need to build your own T0, including CAD and STLs for printed parts, as well as a list of parts.*
+![Iso](Images/sample_builds.png)
 
-And if you wanna get really crazy... this mod combines well with [Double Dragon](https://github.com/zruncho3d/double-dragon), an IDEX V0 mod.
+<p></p>
 
-**Make every first layer perfect!** Upgrade your V0 or build a fresh T0.  
+**Compatibility with the V0 ecosystem of kits, parts, and mods is a huge benefit**.
 
-Join us on the `#tri-zero` on the [DoomCube Discord](https://discord.gg/doomcube) for any questions, comments, or just to see the latest dev activity.
+Plus, this mod pairs beautifully with the full family of Tri-Zero spinoffs:
+* [BoxZero](https://github.com/zruncho3d/BoxZero) adds stability, easier sealing, and scalability for Plus50
+* [ZeroPanels](https://github.com/zruncho3d/ZeroPanels) enables side panels to snap in/out in seconds, with an easy hinged top option
+* [Dueling Zero](https://github.com/zruncho3d/DuelingZero) is a fully-boxed Tri-Zero with dual  gantries (!?!)
 
-![Front](Renders/alpha-4/front.png)
+.. as well as [Double Dragon](https://github.com/zruncho3d/double-dragon), the IDEX V0 mod.
 
-| ![Iso](Renders/alpha-4/iso.png) | ![Iso with skirt](Renders/alpha-4/iso_with_skirt.png)  |
-| - | - |
+Join us on the [DoomCube Discord](https://discord.gg/doomcube) for any questions, comments, or just to see the latest dev activity.
+*  Use `#tri-zero-forum` for support questions and build updates
+*  Use `#tri-zero` for general chat and dev activity
+
+Or, just straight to detailed docs:
+- #### [Parts](PARTS.md): sourcing details
+- #### [Instructions](INSTRUCTIONS.md): build steps, prep, and more
+- #### [Plus50 size](PLUS50.md): sourcing and build notes for Plus50
+- #### [FAQ](FAQ.md): Common questions, answered
+- #### [Change](FAQ.md): Visual summary of past changes
+
+## Overview and features
+
+| ![Iso](Renders/alpha-4/iso.png) | ![Front](Renders/alpha-4/front.png) | ![Iso with skirt](Renders/alpha-4/iso_with_skirt.png)  |
+| - | - | - |
 
 | ![Bottom Iso](Renders/alpha-4/bottom_iso.png) | ![Bed Frame](Renders/alpha-2/bed_asm_no_bed.png) | ![Bottom Z](Renders/alpha-4/bottom_z.png) |
 | - | - | - |
 
-(NOTE: renders are for alpha-4)
+* Perfect Z layers, quiet motion, and great bed stability from 3 belted Z axes; no floppy cantilever here
+* Reliable, stable Klicky-style bed probing with the [ZeroClick](https://github.com/zruncho3d/ZeroClick) detachable probe
+* Optional rear endstop enables [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) and even auto-Z-offset for [IDEX](https://github.com/zruncho3d/double-dragon)
+* Easy bed attachment and removal with built-in Wago mounts: 3 screws each
+* Easy belt attachment and removal: fully tool-less
+* Easy single-screw tensioning on all Z axes
+* Easy to assemble: no hard-to-access screws or assembly-order nuances
+* Your choice of display: 4.3" Touchscreen, Mini 12864, V0 Mini Display, or blank panel
+* Supports large NEMA14 and mid-to-large NEMA17 Z motors
+* Clean, minimal aesthetics with no-bridge, no-extreme-overhang parts
 
-## Latest Release: Alpha-5
+*This repo includes everything you need to build your own T0, including CAD and STLs for printed parts, as well as a list of parts:*
 
-Ready to print!  What are you waiting for?  Multiple T0s are printing or on their way to printing soon.
+## Latest Release: Alpha-6
 
-### Updates
+**There's never been a better time to deploy this mod.**
 
-#### 2022-02-16 Update: $#!+ Just Got Real
+The community is growing.  20+ builds completed.  
 
-**(1)** We have our first Voron-serial'ed Tri-Zero!  Congrats to Red5, whose black-and-blue Tri-Zero looks great and prints great:
+With Alpha-6, the docs are vastly expanded and improved.  You can expect more good stuff to come, to make this mod  easier and faster to build.
 
-  ![Red5](Images/red5.jpg)
+**New in this release:**
 
-Definitely check out the [serial request video for V0.1382](https://www.reddit.com/r/voroncorexy/comments/simwer/trizero_t0_serial_request_v01_red5_8573/) to see what this T0 looks like, printing.  Red5 reports:
+| ![Iso](Renders/alpha-6/iso-both.png) | ![Iso with skirt](Renders/alpha-6/center_brace_with_wagos.png) | ![Front](Renders/alpha-6/mgn7h_slider_top_iso_perspective.png) | ![Iso with skirt](Renders/alpha-6/low_side_x_carriage_iso_ortho.png) | ![Iso with skirt](Renders/alpha-6/motorskirts_side.png)  |
+| - | - | - | - | - |
+| Plus50 Size | Integrated-Wago Bedframe | Rail-less Z Option | No-flush-cut carriages | 40mm Side Fans |
 
-> So far no issues at all with the layers...  I also have printed a few 120mm tall items with perfect vertical layers.
+* **Plus50**, or **T0+** for short, is a new, larger, supported build size.  120x120 is good, but 170x170 is more usable, for little extra money.  T0+ can even be a cost-effective conversion for a V0, using 50mm extrusion chunks.  Shop the new [Plus Size](PLUS50.md) section for this year's newest model.
 
-Yes, direct-drive 1.8-degree stepper motors work great in this application!  We can get away with no reduction when the bed assembly is only ~500g, unlike printers with ~1800g flying gantries.  Direct drive is simpler, more reliable, and lower-cost.
+* **Bedframe with integrated Wago mounts**: Oh yes. The new "Connect 4" bedframe center makes bedframe attach/detach even easier, with up to 8 Wago connectors to support a bed heater, thermal fuse, optional AC ground, endstop, and thermistor wires.  Pop the Wagos in and out, toollessly.
 
-**(2)** We have our first merged Pull Requests!  Props to csch, who contributed 3 different parts in the new Mods folder.
+* **Rail-Less Z Carriages**: Printed replacements for MGN7H rails that slide in an extrusion channel! Faster to install and saves money, too.  Used successfully on at least 4 builds at this point, including [Dueling Zero](https://github.com/zruncho3d/DuelingZero), so it's time to be more public about them.  *Currently considered experimental*, as the design is likely to change, and there is no long-term wear data on them.
 
-**(3)** We have our first complete release, in Alpha-5!  This includes many new or improved parts:
+* **No-flush-cut MGN9C carriage** Inspired by the [Double Dragon](https://github.com/zruncho3d/double-dragon) MGN9C mount; another T0 spinoff, first seen on [Dueling Zero](https://github.com/zruncho3d/DuelingZero).  No more one-time-use belts!
 
-**New:**
-* [ZeroClick](https://github.com/zruncho3d/ZeroClick) is out now, and is the default bed-probing solution for T0.  You don't need to reprint your MiniAB shroud.
+* **40mm fan skirt**: A potentially quieter option.
 
-  ![Zeroclick](Renders/alpha-5/zeroclick.png)
+**Improved in this release:**
 
-* [ZeroPanels](https://github.com/zruncho3d/ZeroPanels) are spun out now, and are the default enclosure solution for T0.  Prints in < 2 hrs and pops on and off.
-  ![Zeroclick](Renders/alpha-5/zeropanel_clip.png)
-* New rear corners are in:
-
-  ![Rear Lower](Renders/alpha-5/rear_lower.png)
-  Smaller, stronger (since they mount to the frame crossmember), and now you can reuse your V0.1 inlet.
-
-* [4.3" Waveshare Touchscreen](https://www.amazon.com/dp/B088JTD6JN) mount added: a great way to add [KlipperScreen](https://github.com/jordanruthe/KlipperScreen), which keeps getting better.  Based on Jeoje's great Voron2.4 [Touchscreen mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/4.3_Inch_Touchscreen_Mount), but adapted to fit securely in a 1515 extrusion.
-
-  ![Rear Lower](Renders/alpha-5/waveshare.png)
-
-* [Mini 12864 Display](https://deepfriedhero.in/products/mini-12864-display) mount added: a super-affordable way to get a display you can easily read from a distance.  Based on Gola's [V0 Trident Skirt Mix](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/golas/v0-trident-skirt-mix), but sized to fit T0.  You don't need the printed corners or guitar feet on your T0 with this one; instead, you can carry over the bumpers from a V0.1.
-
-| ![Front](Images/12864_front.jpeg) | ![Back](Images/12864_back.jpeg) |  ![Part](Images/12864_part.jpeg)
-| - | - | - |
-
-**Improved:**
-* The Z Nozzle Endstop is now rear-mounted;
-![Top Bed](Renders/alpha-5/top_bed_view.png)
-
-  Modified Rear Bed Mount and Front Bed Mounts have been added to match it.  You'll lose a few mm of rear Y travel, but the positioning works much better with [Double Dragon](https://github.com/zruncho3d/double-dragon), where it enables automatic toolhead offset calibration and wider beds.
-* The Rear Z Mount is now taller:
-
-  ![Front Lower](Renders/alpha-5/front_lower.png)
-  This provides 3 real benefits:
-  * Motors (whether NEMA14 or NEMA17) with long shafts no longer conflict with the power supply.
-  * Z motors can be removed now, even with the mount in place, as there's more clearance from the power supply for the allen wrench to get in there.
-  * Your T0-in-progress can sit flat with only 3 below-deck parts: 2x MotorCorners and one Rear Z Mount.
-* Front MotorSkirts now have larger cutouts to fit motors with JST pins... like mine.
-
-What's coming next?  More community contributions, more size options, and more QoL upgrades.  Maybe even a beta release... it's starting to stabilize.  (Famous last words, you say).
-
-As usual, all parts have been pre-oriented for easier printing, and the CAD has been updated.  Enjoy!
-
-#### 2022-02-08 Update
-* [ZeroClick](https://github.com/zruncho3d/ZeroClick) is out!  Fast & simple bed probing for tiny printers... like Klicky, but sized right.  The default now for Tri-Zero.  Actually, ZeroClick is a T0 spinoff proect, just like ZeroPanels, but since both have much broader relevance to more V0-ish printers, they live in other GitHub repositories.
-
-#### 2022-01-23 Update
-* [ZeroPanels](https://github.com/zruncho3d/ZeroPanels) are out!  These provide an option for easily enclosing your T0, while providing the additional gap needed to enable the carriages to stick out of the frame.  They pop on and off in seconds and reuse your clear panels and front printed parts from a V0.
-
-#### 2022-01-20 Update
-* T0-Alpha-4 released, with 11 new parts.
-* **Now supports NEMA14 and NEMA17**: use what you've got!
-  * The new MotorSkirts push the motors as far out as possible, freeing up enough space to fit larger power supplies  more easily (between motors or against the motor rear plates).  
-  * The front skirt can be swapped for a [4" touchscreen mod](https://github.com/Fleafa/VoronUsers/tree/V0.1-Trident-skirt/printer_mods/roboticator24/4inch_touchscreen_mount_for_v2.4) for [KlipperScreen](https://github.com/jordanruthe/KlipperScreen).  
-  * Guitar Feet (4x) can be added to give a nice handle with the skirts... or, retain the original V0 bumpers.
-* New rear motor mount: now, mounts to the nuts you'd already have on a V0 if doing a conversion.  This is a huge deal!  To convert a V0, you no longer need to dissassemble the rear frame.
-* New clip-in 30mm fan mounts on the sides for side-to-side airflow.
-* New clip-in front motor pulley covers.  Leave them out if you want to see Z motion or put some spinners on.
-* Slightly thinner rear Z idlers: now they fit within the extrusion thickness of 15mm.  Two benefits: more space for a probe back there (hint, hint) and now the center tensioner fits a regular 12mm BHCS, so no cut screw or washers are needed anymore.
-* CAD and STLs for alpha-4 are now available.  The original V0.1 bed assembly is gone, for a smaller file size, but Fusion is failing to export, so .step only for this one.
-* Want to contribute?  PRs would be welcome for these improvements:
-  * Integrated probing solution
-  * Rear side skirts with less material.  Duplicating the front skirts adds unnecesary material and gets in the way of a rear outlet.  I got tired and chose to release this instead of modding the skirt.  Other improvements matter more.
-  * Integrated bed Wago mount (5x2)
-
-#### 2022-01-16 Update:
-Initial BOM posted below.  No large changes are expected, but no promises are made w/an alpha!
-
-#### 2022-01-11 Update:
-* T0-Alpha-3 released: **now with less!**
-* **Now Direct-Drive** - yes, this is a huge change.  Frees up space, lower costs, and speeds up the conversion time.  And yes, regular NEMA14 motors seem to have just enough unpowered hold and enough resolution to make this work in practice.  Long (V0.1-spec) NEMA14s should be overqualified to hold the bed when the power cuts out.
-* **Now using MCMBen Trident-style skirts** - these look great and enable integrated side skirts with motor mounts.  Only needs one part and its mirror to change, the front corners, to add clearance for the front belt pulleys.  See the repo for these.
-* Simplified Z attachments: easier and faster to print, increases Z travel (122mm out of the box), and also removes 6 M2 screws.
-* New rear motor attachment piece.  It's basically a block.
-* Updated front idlers: reduces the material needed and slightly increases clearance for another mm of X travel.
-* CAD and STLs for alpha-3 are now available.  GitHub limits files to 100 MB and the Fusion export is just a bit too large.  [Go here for the Fusion export](https://drive.google.com/file/d/1fiEJLRE4qYLFB2CRu8r5_06jv_Fr14W6/view?usp=sharing).
-* What's coming next?
-   * Redone integrated skirts.  The motors are too far inboard now, which wastes space and loads the motor bearings unnecessarily.  This was intentional, to minimize skirt changes, but if we go full-custom with the skirts, they can be more optimized for Tri-Zero.  For example, by extending beyond the frame boundary - to the enclosure boundary - it should be easier to enable NEMA17 motors.
-   * A probing solution is coming, called ZeroClick, but it needs a corresponding dock created before release.
-   * A rear Z motor mount that doesn't change the nut locations relative to V0.1 would be nice!
-   * Lessons from Double Dragon point the way to probably 130mm Z (!) using the same rails.
-   * ZeroPanels are coming soon: screwless, nutless, magnetless, toolless enclosure panels that attach and remove in seconds.
-   * Maybe... just maybe... a block-and-tackle Z for 2x resolution and torque.
-   * Some built-in solution for mounting Wagos under the bed.
-
-#### 2021-11-15 Update:
-* T0-Alpha-2-Green can **reliably** and automatically level itself.  Config coming soon.
-* The new flexure joints beat the KGLM03 joints in smoothness, as they converge *very* quicky when doing automatic leveling, plus drop a few bucks from the cost total.
-* Z has been increased to right about 120mm, and nearly all main Z motion parts had to change to enable this.
-* Front idlers were narrowed a bit to avoid a tiny bit of interference in the very front of the printer.  
-* CAD and STLs for alpha-2 are now available.   
-* What's coming next?
-  * Lessons from alpha-2 will lead to a much simpler alpha-3, likely with even taller Z (beyond 120mm).
-  * Different detachable probe options are under testing, including SideSwipe and a stretched Klicky-style probe.
-
-#### 2021-11-07 Update:
-* T0-Alpha-1-Green can automatically level itself, as of today!  Images and video proof are availabe on Discord.  Real life nearly matches the CAD.
-* CAD and STLs for alpha-1 now available.
-
-### BOM preview
-
-This BOM preview is for Alpha-4, though there's no expectation that these parts will change.  The BOM will become more specific over time, as more of the design gets tested and finalized.
-
-| Category | Part | Qty | Notes |
+| ![Iso](Renders/alpha-6/shaft_cap.png) | ![Front](Renders/alpha-6/updated_z_joint_orientation.png) | ![Iso with skirt](Renders/alpha-6/baseplate_with_corners.png) | 600+ lines added! |
 | - | - | - | - |
-| Fasteners | M2x6 BHCS or SHCS | 10+ | For retaining the Z attachments in rear (2), 6-8 for the rear Z bar, plus one per front idler (2) |
-| Fasteners | M2x8 BHCS or SHCS | 4+ | For retaining the Z belt attachments in front |
-| Fasteners | M2 nuts | 12 | For M2 nutbars
-| Fasteners | M3 BHCS (various) | Yes | For Z idlers (vertical), Z idler attachments (horizontal), motor mounts, skirts, +lots more
-| Fasteners | M3 nuts | Yes |
-| Fasteners | M3 heatset inserts | Yes | For motors, bed mounts (2 + 3), motor skirts (4x3), z belt attachment (4) and more
-| Z Drives | GT2 belt | 3x~500mm |
-| Z Drives | GT2 16t pulleys | 3 |
-| Z Drives | MGN7H 150mm | 2 | Ideally upgrade to MGN9C on the X carriage and then get only one of these to repurpose for a front Z drive.  See the nte below.
-| Z Drives | NEMA14 or NEMA17 motors | 3 | Needs to have enough hold torque.  Mid-size (33mm body length) NEMA14 are marginal, while long (48mm body length) NEMA14 or most mid-to-large NEMA17 will provide enough unpowered hold torque to keep the bed from dropping.  Ideally 0.9mm for extra resolution.  Mix and match should be fine.  Use what you've got.  The Z drive motors barely matter.
-| Z Drives | F623 bearings | 6 | Idlers |
-| Bed | Sexbolt endstop kit | 1 + 1 | Needed for Auto-Z, though technically optional, if you use a virtual endstop in Klipper |
-| Frame | Guitar Feet | 4 | Optional; same as used with Voron Trident.  Can use original V0.1 rubber feet instead.
+| Screw-in Shaft Caps | Updated Z joint orientation | Baseplate with corners | New docs all over |
 
-In addition, you'll need parts for ZeroClick, plus some way to get extra drivers.
+* **Screw-in Shaft Caps**: These match updated MotorCorners; they'll never break now, with no clips in shear.  Much nicer.
 
-### What do you mean by Alpha Release?
+* **Updated Z joint orientation**: Now printed vertically, to add strength in bending.  Should reduce the chance of breaking a $0.01 Z joint print upon head crashes.
 
-It's a collection of early, rapidly-evolving parts, that you can look at, learn from, and maybe even improve upon.  
+* **Baseplate file with cutouts added**: Long-requested; saves the need to bust out your flush cutters or Dremel, if you're sourcing from scratch.
 
-The parts actually work to enable functional triple-bed-leveling, so you can build a working printer with it.
+* **Docs**: Lots has been learned in the last year of T0, and now we have specific motor recommendations, config notes, tips, build steps, and an FAQ.  More visual, more engaging.  No proper manual yet, but this gets us halfway there.
 
-To test the concept as quickly as possible, early alpha releases re-used many parts from other sources, especially [F-Zero](https://github.com/zruncho3d/f-zero). But the 4x Z reduction really wasn't needed for a bed that is 1/3 the weight of an F-Zero gantry, so at alpha-3, everything moved to direct drive.
+Thanks to everyone who contributed to this release by testing parts!  You know who you are, and you'll get the ping-for-test again, I assure you :smile:.
 
-Think of it as a functioning work-in-progress in advance of a future T0 beta or actual release.
+I'm behind on reviewing GitHub pull requests, and that's up next: to make your mods more visible.
 
-### What is missing in the Alpha Release?
+## Prior Changes
 
-As of Alpha-5 nothing.
+Prior changes (alpha-5, alpha-4, ...) are now noted in the **[visual changelog](CHANGES.md)**, which explains how T0 has evolved and walks through the interesting parts.
 
-### What's in this repo?
+### Build Options: an Overview
 
-In this repo are all of the STLs needed to build a Tri-Zero Alpha which are not in the V0.1 repo.
+No two builds are likely to be identical, and that's OK.  You're a smart, independent builder, and here you get to choose amongst the options to match your priorities and budget.  Next up is a quick overview, with the shared elements after.
 
-All parts should be already be in print-ready orientation, with seam in the +Y dir, and no supports are needed.
+#### Least-cost Stock-size Option: "starving student special" conversion - $0-$75
 
-Standard Voron settings, or lowered infill and fewer perims, should work fine for most parts:
-- 4 perimeters
-- 40% infill, depending on the part
-- 0.2mm layer height
+**Performs well, at minimum cost.**
 
-The MotorSkirts and Rear Corners are happy with 20% infill, for a bit of print speedup.
+Buy 3 small NEMA14 motors (< ~$30), print some sliders, and keep using your MGN7H X rail.  Buy some pulleys ($5), belt ($5), and fasteners ($10ish).  Buy a low-cost 2-4 driver board ($25).  Potentially $0 if you have the parts lying around from other printer, including magents and a switch for ZeroClick.  Sure, the rear bed joint might occasionally drop when the power cuts, and the sliders require a little bit of tuning, but once the printer rehomes, you're good, and the Z motion quality should match real rails.
 
-### Printed Parts
+#### Premium Model, 120x120: ~$110
 
-For printed parts, you need the STLs in the quantites noted from this repo, along with STLs from a bunch of places:
-- [ZeroPanels](https://github.com/zruncho3d/ZeroPanels)
-- [Zeroclick](Renders/alpha-5/zeropanel_clip.png) (if enclosing)
-- From [F-Zero](https://github.com/zruncho3d/f-zero):
-  - [No-drop nuts](https://github.com/zruncho3d/f-zero/tree/main/STLs/NoDropNuts)
-  - [12mm Bed Spacers](https://github.com/zruncho3d/f-zero/blob/main/STLs/Bed/bed_spacer_12mm_x3.stl)
-- More M2 nutbars from V0
+**Performs the best.**
 
-### Non-printed Parts
+Might as well upgrade your X rail to MGN9C while you're at it ($15?), to  reduce toolhead flop.  Use beefy 48mm NEMA17s (~$45), and for rails, add one MGN7H to go with the one you just freed up ($15).  Otherwise the same.
 
-An MGN9C or dual-MGN7X gantry is highly recommended!  You don't want toolhead flop to affect bed-probe results or print quality.  Hartk1213 has an [MGN9 mod for V0](https://github.com/Fleafa/VoronUsers/tree/master/printer_mods/hartk1213/Voron0_MGN9C_X_Axis) which is in use in the first prototype.
+#### Least-cost Plus50 BoxZero conversion: ~170x170: ~$150 to ~$200
 
-### What if I have questions?
+You're also looking at a new K3-style or Prusa-Mini-style bed/magnet/flexplate ($35+), additional extrusion pieces ($30), new 200mm XY MGN7Hs and a 200mm MGN9C ($50), plus new longer XY belts ($10).  Yields a bit of extra Z travel too.
 
-The renders and CAD should answer many questions first.
+The price point is maybe $50 less if you're scratch-building and can leave out the Z rails, or you sell all the rails from your kit to someone who is scratch-building.  More details in the Plus50 section.
 
-Then, go the DoomCube Discord and ask on the #tri-zero channel.
+#### Premium Model, ~170x170: ~$200-$300
+
+Move 4x MGN7H rails to Z, for ~130mm Z travel.
+
+Optionally, add new clear ($20) and solid panels ($20).
+
+Optinally, add a top-grade bed, like one from Mandala Rose Works meant for a Salad Fork.
+
+Optionally, go for taller panels, taller BoxZero corners, custom frame, and 200mm MGN7H Z rails, to get a 170x170x170 build cube.
 
 ### Additional Credits / History
 
