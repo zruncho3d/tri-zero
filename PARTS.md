@@ -14,7 +14,8 @@ NOTE: the parts listed here represent only those which go on T0-specific parts. 
 | Z Drives | GT2 16t pulleys | 3 | Z Drive pulleys
 | Z Drives | MGN7H 150mm | 2 | Ideally, upgrade to MGN9C on the X carriage, then get only one of these to repurpose for a front Z drive.  See other notes below.
 | Z Drives | F623 bearings | 6 | Idlers |
-| Z Bed | Metal spacers | 3 | Typically 1/2" (12.7mm) or slightly larger, depending on the height of your bed.  Can be loose; will be fine, once tightened down.|
+| Z Bed | Metal or ceramic spacers | 3 | Typically 1/2" (12.7mm) length M3 spacers or slightly longer, but it depends on your bed height, magnet height (if any), and flexplate height; 14-15mm will be needed for beds without magnets.  Holes need to be at least 3mm in diameter, but can be larger without issues (6-32, 8-32, etc). |
+| Z Bed | Wago 221-412 | 6-8 | 2-position electrical connector
 
 **Frame**
 
@@ -25,7 +26,6 @@ No new extrusions are required, because the original V0 bedframe 100mm extrusion
 See above for options: a medium-preload MGN9C with matching carriage is highly recommended, with an MGN7H medium-preload option not far behind.  Why mention this?  Because you don't want toolhead flop to affect bed-probe results or print quality.  
 
 [This V0 carriage](https://github.com/zruncho3d/DuelingZero/blob/main/STLs/Low_Side_X_Carriage_x1.stl) is recommended to match.  
-
 
 **Electronics**:
 
