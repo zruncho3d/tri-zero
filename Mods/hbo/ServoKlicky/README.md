@@ -4,7 +4,7 @@
 This as a mount for the z-probe that mooves the probe and dock out of the way while printing.
 Therfore there is no loss on print volume !
 
-###Curently in alpha stage
+### Curently in alpha stage
 
 Parts have been printed but not yet tested on a printer (im still in the prozess of bulding a V0 to test this)
 
