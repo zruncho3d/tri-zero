@@ -29,7 +29,7 @@ If you go with a 20mm fan make sure to order one with a central rib, like the fa
 
 # Skirt Options
 
-The front skirts are designed for Nema 17 motors up to a max size of 39 mm in length.
+The front skirts are designed for NEMA 17 motors up to a max size of 39 mm in length.
 
 Note that there are two front covers for the GT2 pulleys. One for NEMA's with a shaft of 20mm and one for NEMA's with a 24 mm shaft.
 
@@ -68,7 +68,7 @@ The front display mount also provide a mounting option for a reset or emergency 
 I'm using this switch to reset a BTT PSU relays. 
 
 The switch in the cad is a standard 7mm momentary switch that is easy to source even from local providers.
-Make sure to get a Normaly OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
+Make sure to get a Normally OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
 (A Relays mount and firmware configs are in preparation)
 
 ![Printed Panel](Images/reset-switch.png)
@@ -111,9 +111,9 @@ It's inspiring for a lot of us!
 
 ## 08.11.2022
 
-- Honecomb pattern dimensions changed so that there are no thin lines anymore with 0.4mm extrusion with
-- fixed a cosmetic error on the honeycomp pattern of the front corners at the side
-- more clearence for M4 nuts on bottom side of the skirts
-- some minor fixes herere and there - like forgotten facets etc.
+- Honeycomb pattern dimensions changed so that there are no thin lines anymore with 0.4mm extrusion with
+- fixed a cosmetic error on the honeycomb pattern of the front corners at the side
+- more clearance for M4 nuts on bottom side of the skirts
+- some minor fixes here and there - like forgotten facets etc.
 
 
