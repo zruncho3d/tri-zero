@@ -49,6 +49,20 @@ I'm using a 60cm DSI cable to connect the display with a Raspberry PI back on th
 
 ![Printed Panel](Images/tri-zero-waveshare.png)
 
+
+## 3. 12864 Mini Display 
+
+This version is designed for the popular 12864 Displays.
+
+Note:
+- This displays wont work with the SKR Pico.
+- Not all 12864 Displays are the same (the Mellows Fly Mini Screen has slightly differen dimensions)
+
+This part has not been tested yet as I'm waiting for a proper display.
+
+![Printed Panel](Images/tri-zero-12864.png)
+
+
 ### Reset / Emergency switch
 The front display mount also provide a mounting option for a reset or emergency switch.
 I'm using this switch to reset a BTT PSU relays. 
@@ -92,4 +106,14 @@ You need to show/hide the version you like to work with
 
 Thanks to zruncho for all his efforts he puts into the printers for Ants.
 It's inspiring for a lot of us!
+
+# Changelog
+
+## 08.11.2022
+
+- Honecomb pattern dimensions changed so that there are no thin lines anymore with 0.4mm extrusion with
+- fixed a cosmetic error on the honeycomp pattern of the front corners at the side
+- more clearence for M4 nuts on bottom side of the skirts
+- some minor fixes herere and there - like forgotten facets etc.
+
 
