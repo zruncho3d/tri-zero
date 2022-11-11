@@ -49,6 +49,16 @@ I'm using a 60cm DSI cable to connect the display with a Raspberry PI back on th
 
 ![Printed Panel](Images/tri-zero-waveshare.png)
 
+### Reset / Emergency switch
+The front display mount also provide a mounting option for a reset or emergency switch.
+I'm using this switch to reset a BTT PSU relays. 
+
+The switch in the cad is a standard 7mm momentary switch that is easy to source even from local providers.
+Make sure to get a Normally OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
+(A Relays mount and firmware configs are in preparation)
+
+![Printed Panel](Images/reset-switch.png)
+
 
 ## 3. 12864 Mini Display 
 
@@ -63,15 +73,13 @@ This part has not been tested yet as I'm waiting for a proper display.
 ![Printed Panel](Images/tri-zero-12864.png)
 
 
-### Reset / Emergency switch
-The front display mount also provide a mounting option for a reset or emergency switch.
-I'm using this switch to reset a BTT PSU relays. 
+## 4. V0.1 OLED Display
 
-The switch in the cad is a standard 7mm momentary switch that is easy to source even from local providers.
-Make sure to get a Normally OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
-(A Relays mount and firmware configs are in preparation)
+Many kits come with this tiny littel display.
+And the real part turned out nicer than I have expected
 
-![Printed Panel](Images/reset-switch.png)
+![Printed Panel](Images/tri-zero-OLED.png)
+
 
 # Printing
 
@@ -108,6 +116,12 @@ Thanks to zruncho for all his efforts he puts into the printers for Ants.
 It's inspiring for a lot of us!
 
 # Changelog
+
+## 11.11.2022
+
+- Added skirt for V0.1 OLED Display
+- Added assembly instructions
+- Refactoring of CAD file
 
 ## 08.11.2022
 
