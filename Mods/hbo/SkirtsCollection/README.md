@@ -68,7 +68,6 @@ Note:
 - This displays wont work with the SKR Pico.
 - Not all 12864 Displays are the same (the Mellows Fly Mini Screen has slightly differen dimensions)
 
-This part has not been tested yet as I'm waiting for a proper display.
 
 ![Printed Panel](Images/tri-zero-12864.png)
 
@@ -116,6 +115,10 @@ Thanks to zruncho for all his efforts he puts into the printers for Ants.
 It's inspiring for a lot of us!
 
 # Changelog
+
+## 17.11.2022
+
+- Small changes on Mini Display skirt after real world tests
 
 ## 11.11.2022
 
