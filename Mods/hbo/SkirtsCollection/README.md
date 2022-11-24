@@ -39,7 +39,16 @@ This version is intended for users that like to run the tri-zero in headless mod
 
 ![Printed Panel](Images/tri-zero-headless.png)
 
-## 2. Waveshare 4.3" Display
+## 2. Waveshare 2.8" Display
+
+This version is designed for the Waveshare 4
+2.8inch Capacitive Touch Display for Raspberry Pi, DSI Interface
+The mounts are designed to bolt on the frame and display with original screws from the back.
+
+![Printed Panel](Images/tri-zero_waveshare_2.8inch.png)
+
+
+## 3. Waveshare 4.3" Display
 
 This version is designed for the Waveshare 4.3inch Capacitive Touch Display for Raspberry Pi, DSI Interface
 The mounts are designed to bolt on the frame and display with original screws from the back.
@@ -60,7 +69,7 @@ Make sure to get a Normally OPEN (NO) switch if you plan to use it with the BTT 
 ![Printed Panel](Images/reset-switch.png)
 
 
-## 3. 12864 Mini Display 
+## 4. 12864 Mini Display 
 
 This version is designed for the popular 12864 Displays.
 
@@ -72,7 +81,7 @@ Note:
 ![Printed Panel](Images/tri-zero-12864.png)
 
 
-## 4. V0.1 OLED Display
+## 5. V0.1 OLED Display
 
 Many kits come with this tiny littel display.
 And the real part turned out nicer than I have expected
@@ -96,7 +105,9 @@ I had some problems getting nice parts out of the V0 due to the nozzle moving th
 
 Recommended Nema 17 Motor: https://www.omc-stepperonline.com/de/nema-17-bipolar-1-8deg-26ncm-0-4a-0-4a-12v-42x42x34mm-4-draehte-17hs13-0404s1
 
-Waveshare Display:  https://www.waveshare.com/4.3inch-dsi-lcd.htm
+Waveshare Display 2.8inch:  https://www.waveshare.com/2.8inch-dsi-lcd.htm
+
+Waveshare Display 4.3inch:  https://www.waveshare.com/4.3inch-dsi-lcd.htm
 
 Rubber Feet: There are many options. The one in the CAD are these ones here https://de.aliexpress.com/item/1005004478863418.html
 
