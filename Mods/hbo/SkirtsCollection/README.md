@@ -41,8 +41,7 @@ This version is intended for users that like to run the tri-zero in headless mod
 
 ## 2. Waveshare 2.8" Display
 
-This version is designed for the Waveshare 4
-2.8inch Capacitive Touch Display for Raspberry Pi, DSI Interface
+This version is designed for the Waveshare 2.8inch Capacitive Touch Display for Raspberry Pi, DSI Interface
 The mounts are designed to bolt on the frame and display with original screws from the back.
 
 ![Printed Panel](Images/tri-zero_waveshare_2.8inch.png)
@@ -126,6 +125,10 @@ Thanks to zruncho for all his efforts he puts into the printers for Ants.
 It's inspiring for a lot of us!
 
 # Changelog
+
+## 24.11.2022
+
+- New skirt for the Waveshare 2.8inch display added
 
 ## 17.11.2022
 
