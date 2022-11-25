@@ -15,7 +15,7 @@ The rear skirts match all the different front skirts and have the following feat
 
 - integrated power inlet mount. To be used with the "standard" v0 power inlet
 - 2 keystone mount points to get access to the raspberry pi ports
-- Bowden clip mount point. Designed for the E3D style bowden clips. This allows to push the filament and not the tube from the outside. Read for the ERCF :)
+- Bowden clip mount point. Designed for the E3D style bowden clips. This allows to push the filament and not the tube from the outside. Ready for the ERCF :)
 
 ![Printed Panel](Images/tri-zero-rear-details.png)
 
@@ -131,6 +131,7 @@ It's inspiring for a lot of us!
 - Printability enhancements Waveshare 2.8inch display added
     - Prints now well without "fill gap between walls" enabled
     - Optimazation for overhangs
+- Mount for 15mm fans added (STL's only) 
 
 ## 24.11.2022
 
