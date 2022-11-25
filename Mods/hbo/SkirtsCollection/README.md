@@ -4,7 +4,7 @@ This is a Collection of skirts for the try-zero with some additional features.
 
 ![Printed Panel](Images/tri-zero-skirt.png)
 
-Right now, there are 2 variations for the skirts and one common rear and common fan mounts.
+Right now, there are 5 variations for the skirts and one common rear and common fan mounts.
 To start with the rear ..
 
 ## Rear Skirts
