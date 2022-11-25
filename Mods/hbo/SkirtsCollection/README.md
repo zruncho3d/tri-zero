@@ -129,8 +129,8 @@ It's inspiring for a lot of us!
 ## 25.11.2022
 
 - Printability enhancements Waveshare 2.8inch display added
--- Prints now well without "fill gap between walls" enabled
--- Optimazation for overhangs
+    - Prints now well without "fill gap between walls" enabled
+    - Optimazation for overhangs
 
 ## 24.11.2022
 
