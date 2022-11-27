@@ -126,6 +126,14 @@ It's inspiring for a lot of us!
 
 # Changelog
 
+## 27.11.2022
+
+- Printability enhancements for all skirts
+    - Prints now well without "fill gap between walls" enabled
+- Logo Inlet for the rear skirts
+- GT2 cover for 26mm NEMA shaft length added
+
+
 ## 25.11.2022
 
 - Printability enhancements Waveshare 2.8inch display added
