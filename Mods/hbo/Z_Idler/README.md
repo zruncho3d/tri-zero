@@ -20,6 +20,12 @@ Use some 3 x 12 mm pins to attach the bearing stack
 
 # Changelog
 
+## 2.1.23
+- new Version to add clearence for Toolhead
+- new CAD and STL's 
+
+![New](./Images/cab49741-eb03-4afb-802d-386d7460c355.PNG)
+
 ## 13.11.2022
 
 - first alpha version
