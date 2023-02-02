@@ -29,7 +29,7 @@ If you go with a 20mm fan make sure to order one with a central rib, like the fa
 
 # Skirt Options
 
-The front skirts are designed for Nema 17 motors up to a max size of 39 mm in length.
+The front skirts are designed for NEMA 17 motors up to a max size of 39 mm in length.
 
 Note that there are two front covers for the GT2 pulleys. One for NEMA's with a shaft of 20mm and one for NEMA's with a 24 mm shaft.
 
@@ -54,10 +54,32 @@ The front display mount also provide a mounting option for a reset or emergency 
 I'm using this switch to reset a BTT PSU relays. 
 
 The switch in the cad is a standard 7mm momentary switch that is easy to source even from local providers.
-Make sure to get a Normaly OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
+Make sure to get a Normally OPEN (NO) switch if you plan to use it with the BTT PSU Relays.
 (A Relays mount and firmware configs are in preparation)
 
 ![Printed Panel](Images/reset-switch.png)
+
+
+## 3. 12864 Mini Display 
+
+This version is designed for the popular 12864 Displays.
+
+Note:
+- This displays wont work with the SKR Pico.
+- Not all 12864 Displays are the same (the Mellows Fly Mini Screen has slightly differen dimensions)
+
+This part has not been tested yet as I'm waiting for a proper display.
+
+![Printed Panel](Images/tri-zero-12864.png)
+
+
+## 4. V0.1 OLED Display
+
+Many kits come with this tiny littel display.
+And the real part turned out nicer than I have expected
+
+![Printed Panel](Images/tri-zero-OLED.png)
+
 
 # Printing
 
@@ -92,4 +114,20 @@ You need to show/hide the version you like to work with
 
 Thanks to zruncho for all his efforts he puts into the printers for Ants.
 It's inspiring for a lot of us!
+
+# Changelog
+
+## 11.11.2022
+
+- Added skirt for V0.1 OLED Display
+- Added assembly instructions
+- Refactoring of CAD file
+
+## 08.11.2022
+
+- Honeycomb pattern dimensions changed so that there are no thin lines anymore with 0.4mm extrusion with
+- fixed a cosmetic error on the honeycomb pattern of the front corners at the side
+- more clearance for M4 nuts on bottom side of the skirts
+- some minor fixes here and there - like forgotten facets etc.
+
 
