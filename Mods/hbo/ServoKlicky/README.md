@@ -55,5 +55,7 @@ Also note the Joints (Rotation and sliders) to animate and test the movements
 
 - multiple minor updates to get the servo movfe more freely 
 - CAD und STL^s updated
+- Firware folder and sample configs added
+
 
 
