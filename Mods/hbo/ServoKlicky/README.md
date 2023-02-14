@@ -10,6 +10,9 @@ Parts have been printed but not yet tested on a printer (im still in the prozess
 
 
 
+https://user-images.githubusercontent.com/1899323/218826318-dd8349b1-3cd3-4b2f-90a4-cacaf3864f00.mp4
+
+
 ![Printed Panel](Images/closed.png)
 ![Printed Panel](Images/zeroclick.png)
 ![Printed Panel](Images/zero_detail.png)
