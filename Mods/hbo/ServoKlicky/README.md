@@ -51,6 +51,9 @@ Also note the Joints (Rotation and sliders) to animate and test the movements
 
 # Changelog
 
+## 29.03.23
+- Anti short cover for euklid probe added
+
 ## 14.02.23
 
 - multiple minor updates to get the servo movfe more freely 
