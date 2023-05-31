@@ -51,9 +51,6 @@ Also note the Joints (Rotation and sliders) to animate and test the movements
 
 # Changelog
 
-## 31.5.23
-- nuw STEP file added that includes all variants (fix)
-
 ## 29.03.23
 - Anti short cover for euklid probe added
 
