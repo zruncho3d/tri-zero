@@ -8,11 +8,27 @@ https://user-images.githubusercontent.com/1899323/218826318-dd8349b1-3cd3-4b2f-9
 
 ## Renders
 
-![Printed Panel](Images/closed.png)
-![Printed Panel](Images/zeroclick.png)
-![Printed Panel](Images/zero_detail.png)
-![Printed Panel](Images/euklid_detail.png)
-![Printed Panel](Images/rear.png)
+| Dock closed | Dock open|
+|--- |--- |
+|![Printed Panel](Images/closed.png) | ![Printed Panel](Images/zeroclick.png) |
+
+
+# Version 2
+
+This is a all new Design. The Updates include:
+
+- Ball bearing supported dock 
+- Optimized dock mounts. There are now 3 versions for each mount to deal with tolerances of the servo output shaft.
+The mount mounts are maked with dots near the servo shaft hole. The indicate the undercut (amount of press fit) from 90%/95%/100% 
+
+| Front view| Rear view |
+|--- |--- |
+|![SK](./Images/Dock_Closed.png)| ![SK](./Images/Dock_Rear.png)|
+
+| Zero Klick Dock | Euklid Dock|
+|--- |--- |
+| ![SK](./Images/ZK_Open.png) | ![SK](./Images/Euklid_Open.png)|
+
 
 # Printing
 
@@ -26,12 +42,12 @@ All parts print with standard Voron print setting without any supports.
 | - | - | - |
 | Servo | 1 | MG90S - Same as for the ECRF |
 | - | - | - |
-| M3 x 6 | 1 | Pivot point for the main dock|
+| F623 Ball Bearing| 1 | Same as for the V0 belt idlers |
+| M3 x 8 Countersung | 1 | Pivot point for the main dock|
 | M3 x 6 | 1 | To mount the servo base to the z-extrusion (top)|
 | M3 x 35| 1 | To mount the servo base to the z-extrusion (bottom) |
 | | | note that the mounting hole of the servo needs to enlarged to 3mm |
 | M2 x 10 self-tapping | 2 | for the dock assembly |
-| M3 Insert | 1 | Pivot point mount - use some Loctite here |
 
 # Firmware
 
@@ -50,6 +66,10 @@ You need to show/hide the version you like to work with
 Also note the Joints (Rotation and sliders) to animate and test the movements
 
 # Changelog
+
+## 24.078.23
+- all new version 2
+- CAD and all STL's updated
 
 ## 29.03.23
 - Anti short cover for euklid probe added
