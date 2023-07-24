@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/1899323/218826318-dd8349b1-3cd3-4b2f-9
 
 | Dock closed | Dock open|
 |--- |--- |
-|![Printed Panel](Images/closed.png) | ![Printed Panel](Images/zeroclick.png) |
+|![Printed Panel](Images/closed.png) | ![Printed Panel](Images/open.png) |
 
 
 # Version 2
@@ -77,7 +77,7 @@ Also note the Joints (Rotation and sliders) to animate and test the movements
 ## 14.02.23
 
 - multiple minor updates to get the servo movfe more freely 
-- CAD und STL^s updated
+- CAD und STL's updated
 - Firware folder and sample configs added
 
 
