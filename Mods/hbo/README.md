@@ -16,7 +16,7 @@ Also check out my channel on dicord https://discord.com/channels/825469421346226
 | Mod | Image| Notes|
 |--- |--- |--- |
 | [YALM](https://github.com/harry-boe/AntFarm-Projects/tree/main/YALM) | ![YALM](./Images/LED.png) | YALM - Yet Another LED Mount |
-| [YALM](https://github.com/harry-boe/AntFarm-Projects/blob/main/PIP_Holder) | ![YALM](./Images/PIP-SpoolHolder.jpg) | PIP Holder - Foldable print in place spool holder |
+| [YALM](https://github.com/harry-boe/AntFarm-Projects/blob/main/PIP_Holder) | ![YALM](./Images/PIP-SpoolHolder.png) | PIP Holder - Foldable print in place spool holder |
 
 
 # Related 
