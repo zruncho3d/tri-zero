@@ -19,6 +19,7 @@ Also check out my channel on dicord https://discord.com/channels/825469421346226
 | Mod | Image| Notes|
 |--- |--- |--- |
 | [YALM ](https://github.com/harry-boe/AntFarm-Projects/tree/main/YALM) | ![YALM](./Images/LED.png) | YALM - Yet Another LED Mount |
+| [Opto Z endstop for Block and Tackle Mod ](https://github.com/harry-boe/AntFarm-Projects/tree/main/Opto_Block_and_Tackle) | ![YALM](./Images/Opto_BaT.png) | Optical Z endstop mod for the popular Block and Tackle mod. Verry reliable and more than 5mm additional Z travel after the stop has triggered. This prevents the nozzle from crashing into the bed during leveling |
 | [PIP Spool Holder ](https://github.com/harry-boe/AntFarm-Projects/blob/main/PIP_Holder) | ![YALM](./Images/PIP-SpoolHolder.png) | PIP Holder - Foldable print in place spool holder |
 
 
