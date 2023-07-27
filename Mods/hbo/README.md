@@ -6,7 +6,7 @@ Ther are plenty of mods as my version shares only a few part with the original z
 I try to maintain a "Assembled" CAD to help putting all this mods together
 ### The assembled CAD might also include mods that are not yet relased in any of the repos
 
-![Assembled](./Images/0ad6ee07-910e-43cd-9e1b-6d571c0dd923.PNG)
+![Assembled](./Images/T0_Assembled_2023-Jul-27_04-42-04PM-000_CustomizedView59076101284.png)
 
 
 Also check out my channel on dicord https://discord.com/channels/825469421346226226/1051614081859207168
