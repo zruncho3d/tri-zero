@@ -1,5 +1,14 @@
 # Tri Zero mods by HBO
 
+This is a collection of all my mods related to the Tri-Zero 3D printer from zruncho.
+Ther are plenty of mods as my version shares only a few part with the original zruncho design.
+
+I try to maintain a "Assembled" CAD to help putting all this mods together
+### The assembled CAD might also include mods that are not yet relased in any of the repos
+
+![Assembled](./Images/0ad6ee07-910e-43cd-9e1b-6d571c0dd923.PNG)
+
+
 Also check out my channel on dicord https://discord.com/channels/825469421346226226/1051614081859207168
 
 
@@ -8,6 +17,7 @@ Also check out my channel on dicord https://discord.com/channels/825469421346226
 | [Skirt Collection](./SkirtsCollection/) | ![SkirtCollection](./SkirtsCollection/Images/tri-zero_waveshare_2.8inch.png) | Try Zero Skirt collection with multiple Display Variants - Headless - Wavesharte 4.3 Inch Displkay - Waveshare 2.8 Inch Displasy - Voron V0 Oled Display - 12864 Mini Display - |
 | [Pivot Bed Mount](./PivotBed_Mount/) | ![PivotBed](./PivotBed_Mount/Images/pivot_bed.png) | A stronger Tri-Zero Bed mount with a defined pivot point |
 | [IGUS KGLM 03 Bed Mount](./IGUS_03_Mount/) | ![PivotBed](./IGUS_03_Mount/Images/KGLM_03_Mount.png) | High-End option using IGUS KGLM 03 bearings as mount points |
+| [Bed center brace](./T0_Bed_Center_Brace/) | ![Bed Center](./T0_Bed_Center_Brace/Images/Center_Brace_top.png) | Bed frame assembly with wagos and fans to help with heat distribution in the build chamber |
 | [Opto Z Endstop](./Opto_Z_Endstop/) | ![Opto Z](./Opto_Z_Endstop/Images/Opto_Z_assembled.png) | Optical Z endstop. Verry reliable and more tham 5mm additional Z travel after the stop has triggered. This prevents nozzle crashers into the bed |
 | [Z Idler](./Z_Idler/) | ![Z Idler](./Z_Idler/Images/left.png) | Alternate Z Idler. Drop In replacement for the V0 AB lower front idlers |
 | [Servo Klicky Dock](./ServoKlicky/) | ![ServoDockl](./ServoKlicky/Images/Euklid_Open.png) | Servo driven Dock to hold bed probes. This mode allows to maintain the full build volume by moving the probe away when not in use.  Supports ZeroKlick and Euklid Probes |
