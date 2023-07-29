@@ -17,6 +17,7 @@ Also check out my channel on dicord https://discord.com/channels/825469421346226
 | [Skirt Collection](./SkirtsCollection/) | ![SkirtCollection](./SkirtsCollection/Images/tri-zero_waveshare_2.8inch.png) | Try Zero Skirt collection with multiple Display Variants - Headless - Wavesharte 4.3 Inch Displkay - Waveshare 2.8 Inch Displasy - Voron V0 Oled Display - 12864 Mini Display - |
 | [Pivot Bed Mount](./PivotBed_Mount/) | ![PivotBed](./PivotBed_Mount/Images/pivot_bed.png) | A stronger Tri-Zero Bed mount with a defined pivot point |
 | [IGUS KGLM 03 Bed Mount](./IGUS_03_Mount/) | ![PivotBed](./IGUS_03_Mount/Images/KGLM_03_Mount.png) | High-End option using IGUS KGLM 03 bearings as mount points |
+| [GE5C Bed Mount](./GE5C_Bed_Mount/) | ![PivotBed](./Images/T0_GE5C_Bed_Mount.png) | Option using GE5C bearings as mount points |
 | [Bed center brace](./T0_Bed_Center_Brace/) | ![Bed Center](./T0_Bed_Center_Brace/Images/Center_Brace_top.png) | Bed frame assembly with wagos and fans to help with heat distribution in the build chamber |
 | [Opto Z Endstop](./Opto_Z_Endstop/) | ![Opto Z](./Opto_Z_Endstop/Images/Opto_Z_assembled.png) | Optical Z endstop. Verry reliable and more tham 5mm additional Z travel after the stop has triggered. This prevents nozzle crashers into the bed |
 | [Z Idler](./Z_Idler/) | ![Z Idler](./Z_Idler/Images/left.png) | Alternate Z Idler. Drop In replacement for the V0 AB lower front idlers |

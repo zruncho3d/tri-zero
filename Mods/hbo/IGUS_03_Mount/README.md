@@ -21,6 +21,10 @@ This prevents machnical binding due to thermal expansion or due to longer distan
 
 ![P_M](Images/Build_Note.png)
 
+### Replace the stock door latch to create clearence for the front belt clamp !!
+
+![LOatch](./Images/Latch.png)
+
 
 ## Printimg
 
