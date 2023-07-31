@@ -23,6 +23,7 @@ Also check out my channel on dicord https://discord.com/channels/825469421346226
 | [Z Idler](./Z_Idler/) | ![Z Idler](./Z_Idler/Images/left.png) | Alternate Z Idler. Drop In replacement for the V0 AB lower front idlers |
 | [Hinged camera Top Hat ](./Hinged_Camera_Tophat/) | ![Hat](./Images/Tophat.png) | V0.1 style top Hat with V0.2 hinges and front locks. Also features a integrated USB webcam and a motor topdeck with usb keystone and a mounting option for a heat chamber thermal sensor. |
 | [Servo Klicky Dock](./ServoKlicky/) | ![ServoDockl](./ServoKlicky/Images/Euklid_Open.png) | Servo driven Dock to hold bed probes. This mode allows to maintain the full build volume by moving the probe away when not in use.  Supports ZeroKlick and Euklid Probes |
+| [Electronic Mounts](./Electronic_Mounts/) | ![Mounts](./Images/Electronic_Mounts.png) | Various electronic mounts for the T0. RaspberryPI, BTT Pico, BTT U2C CANBus and BTT PSU relais |
 | [Nozzle Probe](./Nozzle_Probe/) | ![Nozle Probe](./Nozzle_Probe/Images/tri-zero-bed.png) | Modified Nozzle Probe that does not require to resolder the Sex-Bolt PCB - Note: not yet compatible with the latest bed mount mods|
 
 
