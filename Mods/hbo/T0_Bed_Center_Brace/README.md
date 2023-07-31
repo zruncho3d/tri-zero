@@ -12,7 +12,7 @@ Ther is also a optional cable cover that goeas on the underside of the bad frame
 
 More on the Rainbow Barf here: https://mods.vorondesign.com/detail/3J9JXZNpmvj20VCBslMoag
 
-## Printimg
+## Printing
 
 Standard Voron settings
 

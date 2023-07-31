@@ -26,7 +26,7 @@ This prevents machnical binding due to thermal expansion or due to longer distan
 ![LOatch](./Images/Latch.png)
 
 
-## Printimg
+## Printing
 
 Standard Voron settings
 

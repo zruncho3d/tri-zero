@@ -32,7 +32,7 @@ I also use 3mm pin instead of screws for the front door hinge. This way i can si
 ![Lock](./Images/T0_Assembled_2023-Jul-31_01-31-01PM-000_CustomizedView25084151646.png)
 
 
-## Printimg
+## Printing
 
 Standard Voron settings
 

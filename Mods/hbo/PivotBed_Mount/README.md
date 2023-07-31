@@ -18,7 +18,7 @@ Note that the mounts raise the bed by a few mm, therfore you need smaller stando
 
 This repo only includes the parts that are different fron the standard Tri-Zero
 
-## Printimg
+## Printing
 
 Standard Voron settings
 

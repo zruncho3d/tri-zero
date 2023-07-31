@@ -22,7 +22,7 @@ Using this concept I could maintain a MCU temp very close to the chamber tempera
 
 ![Assembled](./Images/be333f4c-b308-4882-9516-4d7932820ddb.PNG)
 
-## Printimg
+## Printing
 
 Standard Voron settings
 
