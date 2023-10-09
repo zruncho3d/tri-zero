@@ -25,7 +25,7 @@ No new extrusions are required, because the original V0 bedframe 100mm extrusion
 
 See above for options: a medium-preload MGN9C with matching carriage is highly recommended, with an MGN7H medium-preload option not far behind.  Why mention this?  Because you don't want toolhead flop to affect bed-probe results or print quality.  
 
-[This V0 carriage](https://github.com/zruncho3d/DuelingZero/blob/main/STLs/Low_Side_X_Carriage_x1.stl) is recommended to match.  
+[This V0 carriage](https://github.com/zruncho3d/DuelingZero/blob/ad7e37e47472bcb8754b21062f009c90d896aad2/STLs/Low_Side_X_Carriage_x1.stl) is recommended to match.  
 
 **Electronics**:
 
